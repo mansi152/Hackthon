@@ -31,7 +31,7 @@ public class Login extends AppCompatActivity {
 
                 if(validate())
                 {
-                    Intent n=new Intent(Login.this,Navigationhack.class);
+                    Intent n=new Intent(Login.this,Hackthonnav.class);
                     startActivity(n);
                 }
 
